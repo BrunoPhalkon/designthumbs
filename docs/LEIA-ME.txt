@@ -1,0 +1,20 @@
+DesignThumbs 1.0.0
+Miniaturas no Explorador para PSD/PSB, AI/AIT, PDF, SVG, EPS e INDD.
+
+INSTALAR
+1. Desinstale o SageThumbs antes (Configurações > Aplicativos), para os dois não brigarem.
+2. Dê dois cliques em DesignThumbs.exe e clique em "Instalar".
+   - Não precisa de administrador. Instala em %LOCALAPPDATA%\Programs\DesignThumbs.
+3. Aceite limpar o cache de miniaturas quando ele perguntar.
+
+LIMITAÇÕES
+- Arquivos que estão só na nuvem (Google Drive em streaming, ícone de nuvem) não ganham miniatura
+  até serem baixados: botão direito > Disponível off-line.
+- Illustrator: a miniatura nítida só existe se o .ai foi salvo com "Criar arquivo compatível com PDF".
+  Sem isso, usa a miniatura pequena que o Illustrator guarda no arquivo (se houver).
+- Photoshop: com "Maximizar compatibilidade" desligado, usa a prévia embutida (menor).
+- PSD em Lab, Duotone, Indexado, Multicanal ou 32 bits usa a prévia embutida.
+- EPS sem prévia embutida e .svgz não geram miniatura.
+
+DESINSTALAR
+Configurações > Aplicativos > DesignThumbs > Desinstalar, ou o botão "Desinstalar" no app.

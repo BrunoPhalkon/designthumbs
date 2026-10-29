@@ -1,0 +1,7 @@
+LIBRARY DesignThumbs
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE
+    DT_RenderFile
