@@ -65,7 +65,7 @@ bash scripts/build.sh
 # resultado: dist/DesignThumbs-<versão>.zip
 ```
 
-O script baixa o [lunasvg](https://github.com/sammycage/lunasvg) e os binários do [PDFium](https://github.com/bblanchon/pdfium-binaries) nas versões fixadas. O GitHub Actions compila cada commit e publica o zip nas tags `v*`.
+O script baixa o [lunasvg](https://github.com/sammycage/lunasvg) e os binários do [PDFium](https://github.com/bblanchon/pdfium-binaries) nas versões fixadas. O GitHub Actions compila cada commit e publica uma release automaticamente quando a versão em `src/common.h` muda.
 
 `build/render.exe <px> <pasta_saida> arquivos...` gera PNGs das miniaturas sem passar pelo Explorador (útil para testar).
 
