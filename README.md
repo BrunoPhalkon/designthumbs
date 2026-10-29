@@ -5,6 +5,10 @@ Gratuito, código aberto, sem precisar de administrador.
 
 *[English below](#english)*
 
+### ⬇️ [Baixar DesignThumbs 1.0.0 (zip)](https://github.com/BrunoPhalkon/designthumbs/releases/download/v1.0.0/DesignThumbs-1.0.0.zip)
+
+> Baixe este zip — **não** o botão verde "Code" nem "Source code", que são só o código-fonte.
+
 <p align="center"><img src="docs/app.png" alt="Janela de configurações do DesignThumbs" width="420"></p>
 
 > **Status: beta.** Testado em Windows 11 x64. Se algum arquivo não gerar miniatura, [abra uma issue](../../issues) dizendo o formato e o programa/versão que salvou o arquivo.
@@ -22,7 +26,7 @@ Gratuito, código aberto, sem precisar de administrador.
 
 ## Instalar
 
-1. Baixe o `.zip` da [última versão](../../releases/latest).
+1. Baixe o [`DesignThumbs-1.0.0.zip`](https://github.com/BrunoPhalkon/designthumbs/releases/download/v1.0.0/DesignThumbs-1.0.0.zip) (ou o `DesignThumbs-*.zip` mais recente em [Releases](../../releases), na lista **Assets**).
 2. **Antes de extrair:** botão direito no zip > **Propriedades** > marque **Desbloquear** > OK. (Evita o aviso "O Windows protegeu o computador", porque o programa ainda não tem assinatura digital.)
 3. Extraia, abra `DesignThumbs.exe` e clique em **Instalar**.
 4. Aceite limpar o cache de miniaturas.
@@ -80,7 +84,7 @@ Photoshop, Illustrator e InDesign são marcas da Adobe. Este projeto não tem li
 
 **DesignThumbs** adds File Explorer thumbnails for Photoshop (`.psd/.psb`), Illustrator (`.ai`), PDF, SVG, EPS and InDesign (`.indd`) files on Windows 10/11 x64. Free, open source, per-user install (no admin rights).
 
-- **Install:** download the zip from [Releases](../../releases/latest), right-click > Properties > **Unblock**, extract, run `DesignThumbs.exe` and click **Instalar** (Install). The UI is in Portuguese.
+- **Install:** download [`DesignThumbs-1.0.0.zip`](https://github.com/BrunoPhalkon/designthumbs/releases/download/v1.0.0/DesignThumbs-1.0.0.zip) (or the newest `DesignThumbs-*.zip` under **Assets** in [Releases](../../releases)), right-click > Properties > **Unblock**, extract, run `DesignThumbs.exe` and click **Instalar** (Install). The UI is in Portuguese.
 - **How it works:** a COM thumbnail provider registered under `HKCU`, running in Explorer's isolated surrogate process. PSD composites are sampled row by row (fast on huge files); PDF/AI are rendered with PDFium; SVG with lunasvg; EPS/INDD use embedded previews.
 - **Limitations:** cloud-only files (OneDrive/Google Drive placeholders) get no thumbnails until downloaded; `.ai` needs "Create PDF Compatible File" for a sharp render.
 - **Build:** `bash scripts/build.sh` on Linux with mingw-w64.

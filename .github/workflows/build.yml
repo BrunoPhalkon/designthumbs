@@ -45,4 +45,4 @@ jobs:
           fi
           gh release create "$TAG" dist/DesignThumbs-*.zip dist/SHA256SUMS.txt \
             --target "$GITHUB_SHA" --title "DesignThumbs $TAG" \
-            --notes-file docs/RELEASE_NOTES.md --prerelease
+            --notes-file docs/RELEASE_NOTES.md --latest
